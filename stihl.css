@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --outline: 1px dotted #ff0000;
+}
+body{
+    position:relative;
+    height:100vh;
+    background: #000
+}
+--icon{
+    position:absolute;
+    width:20%;
+    background: #000;
+    color: #fff;
+    text-align:right;
+    font-size:80px;
+    right:0px;
+
+}
+header, footer{
+    position:absolute;
+    width:100%;
+    background: #000;
+    color: #fff;
+}
+header{
+    text-align: center;
+    font-size:80px;
+    height:100px;
+    font-family: fantasy;
+    color:grey;
+}
+footer{
+    bottom:0px;
+    height:20px;
+    text-align:right;
+}
+.main{
+    position:absolute;
+    top:100px;
+    width:100%;
+    height:calc(100vh - 100px - 20px);
+    padding:1rem;
+    background:red;
+    border-radius: 20px;
+    overflow-y: scroll;
+}
+article{
+    background: grey;
+    padding:2rem;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+
+}
